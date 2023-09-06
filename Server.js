@@ -100,6 +100,7 @@ port.on("open", function (err) {
     }
   });
 });
+// 
 
 
 // Store data in database every 1min and retrieve data every 1min
