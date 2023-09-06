@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "serialport": "^11.0.1",
+    "socket.io": "^4.7.2"
+  },
+  "scripts": {
+    "start": "nodemon Server.js"
+  },
+  "name": "arduinoserver",
+  "version": "1.0.0",
+  "main": "Server.js",
+  "keywords": [],
+  "author": "John Rey Valdez Jr.",
+  "license": "ISC",
+  "description": "Connects to Arduino and sends data to client"
+}
